@@ -1,4 +1,4 @@
-FROM ros:humble-ros-base-jammy AS base
+FROM ros:jazzy-ros-base-noble AS base
 
 # Install basic dev tools (And clean apt cache afterwards)
 RUN apt-get update \
@@ -59,7 +59,7 @@ CMD ["bash"]
 
 # -----------------------------------------------------------------------
 
-FROM base as runtime
+FROM base AS runtime
 
 # Copy artifacts/binaries from prebuilt
 COPY --from=prebuilt $ROS_WS/install $ROS_WS/install
