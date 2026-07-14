@@ -2,8 +2,8 @@
 Changelog for package av_imu_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.0 (2026-07-14)
+------------------
 * Jazzy migration
 
 3.0.0 (2026-03-11)
